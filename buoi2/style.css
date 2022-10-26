@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+h1{
+    color: orange;
+    text-align: center;
+}
+img{
+    margin: 20px 10px;
+}
+.anh{
+    display: flex;
+}
+.anh p{
+    margin-top: 320px;
+}
+ul{
+    margin: 20px 30px;
+}
+table{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFy0tH3wQPrV0fZnwv9k3e8k75_GbfzpDM9g_8nsK_AAl0cXfKzG5bX_t0iVtpS7bqw_8&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 30px 10px;
+    width: 99%;
+    height: 250px;
+}
+.cot1{
+    text-align: center;
+}
