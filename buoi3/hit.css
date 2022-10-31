@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.content{
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+.h1{
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+}
+.h_g{
+    display: flex;
+    align-items: center;
+}
+.so3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.none{
+    background-color: white;
+    width: 10px;
+}
+
