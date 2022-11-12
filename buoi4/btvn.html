@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTVN</title>
+    <link rel="stylesheet" href="./btvn.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="avt">
+            <img class="anh"
+                src="data:image/jpeg;base64,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"
+                alt="">
+            <h3>Đỗ Thị Thương Mai</h3>
+        </div>
+        <div class="logo">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+    </header>
+    <div class="con"></div>
+    <div class="content">
+        <div class="left">
+            <div class="left_top">
+                <p>Lớp Public</p>
+                <p>Lớp cho HITers</p>
+            </div>
+            <div class="left_center">
+                <div class="left_center_menu">
+                    <div class="menu_img1"></div>
+                    <div class="menu_content">
+                        <h3>Lập trình C</h3>
+                        <p>8 Buổi</p>
+                    </div>
+                </div>
+                
+                <div class="left_center_menu">
+                    <div class="menu_img2"></div>
+                    <div class="menu_content">
+                        <h3>Lập trình C++</h3>
+                        <p>8 Buổi</p>
+                    </div>
+                </div>
+
+                <div class="left_center_menu">
+                    <div class="menu_img3"></div>
+                    <div class="menu_content">
+                        <h3>Lập trình OPP (c++)</h3>
+                        <p>8 Buổi</p>
+                    </div>
+                </div>
+
+                <div class="left_center_menu">
+                    <div class="menu_img4"></div>
+                    <div class="menu_content">
+                        <h3>Thiết kế web</h3>
+                        <p>8 Buổi</p>
+                    </div>
+                </div>
+
+                <div class="left_center_menu">
+                    <div class="menu_img5"></div>
+                    <div class="menu_content">
+                        <h3>Photoshop</h3>
+                        <p>8 Buổi</p>
+                    </div>
+                </div>
+
+                <div class="left_center_menu">
+                    <div class="menu_img6"></div>
+                    <div class="menu_content">
+                        <h3>Lập trình Python</h3>
+                        <p>8 Buổi</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="posts">
+                <h3>Post</h3>
+            </div>
+            <div class="right_content">
+                <div class="right_content_1">
+                    <h3 class="m_b8">Chúc mừng sinh nhật HIT 13 tuổi</h3>
+                    <p>18/8/2010 - 18/8/2023</p>
+                </div>
+                <div class="right_content_1">
+                    <h3 class="m_b8">Chúc mừng sinh nhật HIT 13 tuổi</h3>
+                    <p>18/8/2010 - 18/8/2023</p>
+                </div>
+                <div class="right_content_1">
+                    <h3 class="m_b8">Chúc mừng sinh nhật HIT 13 tuổi</h3>
+                    <p>18/8/2010 - 18/8/2023</p>
+                </div>
+                <div class="right_content_1">
+                    <h3 class="m_b8">Chúc mừng sinh nhật HIT 13 tuổi</h3>
+                    <p>18/8/2010 - 18/8/2023</p>
+                </div>
+                <div class="right_content_1">
+                    <h3 class="m_b8">Chúc mừng sinh nhật HIT 13 tuổi</h3>
+                    <p>18/8/2010 - 18/8/2023</p>
+                </div>
+                <div class="right_content_1">
+                    <h3 class="m_b8">Chúc mừng sinh nhật HIT 13 tuổi</h3>
+                    <p>18/8/2010 - 18/8/2023</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h2 class="footer_cnt">
+            From <span><a style="color: red;" href="https://www.facebook.com/HITClub.HaUI">HIT</a></span> with Love
+            <i style="color: red;" class="fa-solid fa-heart c_r"></i>
+        </h2>
+    </div>
+</body>
+
+</html>
