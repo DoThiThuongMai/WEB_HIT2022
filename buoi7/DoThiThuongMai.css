@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.search{
+    margin-top: 50px;
+}
+.card{
+    display: flex;
+    margin-top: 50px;
+}
+.chu h5:hover{
+    color: #00CC33;
+}
+nav>ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: rgb(117, 243, 117);
+    height: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+    display: inline-block;
+    padding: 0px 39.5px;
+}
+nav ul li a:hover{
+    background-color: green;
+}
+.cha{
+    position: relative;
+}
+.con{
+    position: absolute;
+    background-color: rgb(117, 243, 117);
+    width: 264px;
+    list-style-type: none;
+    height: 185px;
+    display: none;
+}
+.con a{
+
+    width: 264px;
+    text-decoration: none;
+    line-height:30px;
+    border-bottom: 1px solid white;
+}
+.cha:hover .con{
+    display: block;
+}
+
+.content{
+    background-color: white;
+    width: 100%;
+    margin: 10px;
+}
+.left{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.chu1{
+    margin: 10px;
+    background-color: gray;
+    line-height: 30px;
+    color: #00CC33;
+    border-radius: 5%;
+    text-align: center;
+}
+.chu1 h4:hover{
+    color: red;
+}
+.chu2{
+    text-align: center;
+
+}
+
